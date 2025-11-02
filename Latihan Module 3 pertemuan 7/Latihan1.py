@@ -7,11 +7,9 @@ else:
     hitungan = 0
 
     while hitungan < n:
-        for i in range(5):
-            if hitungan < n:
-                break
         angka = random.random()
         if angka < 0.5:
             print(f"bilangan ke {hitungan+1}:{angka}")
             hitungan += 1
+
         
