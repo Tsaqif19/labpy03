@@ -1,5 +1,4 @@
 modal_awal = 100000000  
-laba = 0
 total = 0
 
 for bulan in range(1, 9):
@@ -12,8 +11,8 @@ for bulan in range(1, 9):
     elif bulan == 8:
         laba = 0.03 * modal_awal
 
-    print(f"Bulan ke-{bulan} laba sebesar: {laba:}")
+    print("Bulan ke-",bulan,"laba sebesar:",laba)
     total += laba
 
 print("=================================")
-print(f"Total laba selama 8 bulan: {total:}")
+print("Total laba selama 8 bulan:",total)
